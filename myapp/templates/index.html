@@ -1,0 +1,640 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Uchrashuv Cafe</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
+      <i class="bi bi-phone d-flex align-items-center"><span>(99) 901-02-98</span></i>
+      <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Dush-Yak: 9:00 AM - 22:00 PM</span></i>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html">Uchrashuv</a></h1>
+
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Asosiy</a></li>
+          <li><a class="nav-link scrollto" href="#about">Haqimizda</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+          <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
+          <li><a class="nav-link scrollto" href="#events">Tadbirlar</a></li>
+          <li><a class="nav-link scrollto" href="#chefs">Oshpazlar</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallereya</a></li>
+
+          <li><a class="nav-link scrollto" href="#contact">Aloqa</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Stol buyurtma</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style='background-image: url("{% static 'img/slide/slide-1.jpg' %}")';>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown"><span>Uchrashuv</span> Cafe</h2>
+                <p class="animate__animated animate__fadeInUp">Guliston shahridagi eng mashxur va sifatli cafe. O'zbek va xorijiy taomlar hamyonbop narxlarda.
+                Tug'ilgan kun va bayram tadbirlari uchun ham imkoniyatga ega bo'lgan ovqatlanish maskani.</p>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Munu</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Stol buyurtma</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("{% static 'img/about.jpg' %}");'>
+            <a href="{% static 'video\Uchrashuvkafe.mp4' %}" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+            <div class="content">
+              <h3>Bizning cafe haqida <strong>bir og'iz so'z</strong></h3>
+              <p>
+                Biz 2018 yildan buyon mijozlarga ximzat korsatib kelamiz.
+              </p>
+
+              <p>
+                Uchrashuv cafe O'zbekiston Respublikasining jadal rivojlanayotgan bozorida faoliyat yuritadi va bozorning o'sib borayotgan
+                talabini qondirishga qaratilgan.Cafe so'nggi 4 yil ichida ajoyib natijalarni ko'rsatdi va o'zining asosiy biznesi: Oziq-ovqat va ichimliklar orqali
+                barqaror rivojlanmoqda. Bizning Uchrashuv Cafe lavashimiz o'z segmentlari orasida eng taniqli va O'zbekistonda juda qadrlanadi.
+                Lekin biz yanada yaxshiroq bo'lishga
+                 va xalqaro standartlarga javob berishga intilamiz.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Whu Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Nega aynan <span>Uchrashuv</span></h2>
+          <p>Ko'pchilikda savol paydo bo'lishi tabiiy.<br> Nega aynan biz?</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box">
+              <span>01</span>
+              <h4>Sifat</h4>
+              <p>Bizda tayyorlanayotgan barcha taomlar ko'rinishi va gigienik talablari jahon standartlariga to'liq javob beradi.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box">
+              <span>02</span>
+              <h4>Muomala</h4>
+              <p>Biz uchun barcha tashrif buyuruvchilar aziz va hurmatda. Bizda mijozga noto'g'ri munosabarni uchratmaysiz.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box">
+              <span>03</span>
+              <h4>Narx</h4>
+              <p>Tayyorlanayotgan barcha taom va yeguliklar hech qanday qo'shimcha narxlarsiz hamyonbop narxlarda</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Whu Us Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Bizning mazali  <span>Menu</span></h2>
+        </div>
+
+        <div class="row" id="taomlar">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">
+                <a style="text-decoration: none; color: white;" href="{% url 'homepage' %}#taomlar">Barchasi</a></li>
+
+                {% for category in categories %}
+                  <li data-filter="*" class="filter-active">
+                      <a style="text-decoration: none; color: white;" href="{% url 'homepage' %}?category={{category.name}}#taomlar">
+                      {{category.name}}</a></li>
+                {% endfor %}
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container">
+          {% for taom in yegulik %}
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#"> {{taom.nomi}}</a><span>{{taom.narx}}.000</span>
+            </div>
+            <div class="menu-ingredients">
+              {{taom.description}}
+            </div>
+          </div>
+          {% endfor %}
+
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Maxsus <span>Taomlar</span></h2>
+          <p>maxsus mehmonlar uchun ham bizda maxsus taomlar mavjud.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Tandir</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Qozon kabob</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Steyk assorti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Go'sht say</a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Qashqadaryocha tandir</h3>
+                    <p class="fst-italic">Maxsus tandirda qo'y go'shtiga pishirilgan mazali tandir</p>
+                    <p>Qashqadaryo viloyatida eng qadrli va nozik mehmonlar uchun tayyorlanadi. Bayramlarda, to‘y-xashamlarda tansiq taom sifatida dasturxonga tortiladi. Tandir go‘shti  Qashqadaryo viloyatining mashhur taomlaridan hisoblanadi. Bu taom paydo bo‘lishi haqida mahalliy aholi orasida turli afsonalar tarqalgan. Ulardan birida aytilishcha: “Qadimda kunlardan bir kun chaqmoq chaqib, tog‘ archazorlariga o‘t ketadi va u yerdagi hamma hayvonlar kuyib go‘shtga aylangan. O‘sha tog‘dan oqib o‘tuvchi suv sho‘r bo‘lgan. Shuning uchun shu suvdan ichgan tog‘ hayvonlarining  go‘shtlarida tuz miqdori yetarli bo‘lgan. Undan tatib ko‘rgan tog‘ aholisiga pishgan go‘shtning ta'mi yoqib qolgan va o‘sha voqeadan so‘ng tog‘ cho‘ponlari  o‘z podasidagi qo‘y-qo‘zilarning go‘shtini o‘ra qazib pishira boshlashgan. Qo‘shimcha ta'm berish maqsadida tog‘ archasi va ziravorlaridan foydalanishgan</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'img/tandir.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Qozon kabob</h3>
+                    <p class="fst-italic">Milliy taomlarimizdan biri bo'lgan qozon kabob.</p>
+                    <p> Qirsillovchi qobiq hosil qilguncha qovurilgan go’sht va o’simlik moyi va go’sht yog’ida tillarang tusga kirguncha qovurilgan kichikroq kartoshka. Go’sht esa oldindan quruq yoki nordon marinadda marinadlangan. Uchta qozon-kabob tayyorlash turi farqlanadi: qo’y, parranda (asosan tovuq) va mol go’shtidan. O’rtacha kattalikdagi tovuq bo’laklari qizib turgan yog’da 20-25 daqiqa, shu kattalikdagi qo’y qovurg’alari 25-35 daqiqa, mol go’shti esa yana biroz ko’proq qovuriladi. Go’sht suvli bo’lib pishishi sirlari ham mavjud. Agar faqat go’sht sirti qizartirib pishirilsa, albatta, bunda suvlilikka erishish mumkin, lekin go’shtga kartoshka solinganida, go’sht suvi bilan aralashib, uning ko’rinishi buziladi. Go’sht tayyor bo’lgunicha qovurilsa, bunday holatning oldini olish mumkin, lekin uning yumshoqligi yo’qoladi. Xo’sh, mazali qozon kabob qanday tayyorlanadi? Buning uchun shunchaki go’sht biroz dimlanadi. Va, bu holda, qovurishning an’anaviy tartibini buzish ham mumkin.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'img/qozonkabob.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Steyk assorti</h3>
+                    <p class="fst-italic">Xorij taomlarini yoqtiruvchilar uchun turkcha steyk assorti taomi.</p>
+                    <p>Mol go'shtining eng yaxshi qismlaridan tayyorlangan biftek odatda oddiy biftek (ba'zan mol go'shti bifshteksi  ) deb ataladi .Ba'zida biftek tarixi Qadimgi Rim davriga to'g'ri keladi, bu erda "ma'badlarda qurbonlik qilish marosimi paytida ruhoniylar ilohiy qurbongohga qo'yish uchun katta mol go'shti bo'laklarini panjara ustiga qovurishgan "[ manba aniqlanmagan 2496 kun ] .O'rta asrlarda Evropada mol go'shti past obro'ga ega edi: bu deyarli faqat eski sigirlar va buqalarning go'shti edi. Ortiqcha qoramol erta yoshda so'yilgan, shuning uchun dana go'shti aholining badavlat qatlamlari oshxonasida juda keng tarqalgan.Yosh buqalarni kastratsiya qilish va ularni go'sht uchun intensiv boqish amaliyoti Angliyada boshlangan va faqat keyinroq butun Evropaga tarqaldi, bu deyarli barcha Evropa tillari, shu jumladan rus (nemis tili orqali) qovurilgan go'shtning asosiy nomlarini olganligini tushuntiradi. Ingliz tilidan mol go'shti kesilgan: biftek va qovurilgan mol go'shti .</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'img/steyk.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Gosht say</h3>
+                    <p class="fst-italic">Ham go'shtli ham yengil taomni hohlovchilar uchun maxsus taom.</p>
+                    <p>Go’sht Say – uyg’urcha mashhur taomlardan biri bo’lishiga qaramay, ammo o’zimizning deyarli barcha kafelar taomnomasida bunday taomni uchratishimiz mumkin.Uy sharoitida ham bunday taom tayyorlash juda oson bo’lib, buning uchun bizga — qozon, go’sht, va sabzavotlar, asosiysi juda ham kam vaqt kerak bo’ladi.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'img/goshtsay.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Specials Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Bizda o'zingizning <span>Tadbir</span> laringizni tashkillashtiring</h2>
+        </div>
+
+        <div class="events-slider swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="{% static 'img/birthday.jpg' %}" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Tug'ilgan kun</h3>
+                  <div class="price">
+                    <p><span>$50</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Tadbiringiz siz va yana tortta mehmon uchun narxda hisoblangan.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Agar tadbiringizda 20 dan oshiq mehmon bo'lsa 10% chegirma.</li>
+                    <li><i class="bi bi-check-circle"></i> Mezbon uchun tug'ilgan to'rti cafe hisobidan.</li>
+                    <li><i class="bi bi-check-circle"></i> 30 kishidan oshiq tadbirga xizmat haqqi bepul.</li>
+                  </ul>
+                  <p>
+                    Bizda yana bir nechta qo'shimcha bonuslar mavjud. Tashrif buyuring va tadbiringizni bizga ishonib topshiring.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Stol <span>Buyurtma</span></h2>
+          <p>Tadbiringiz uchun avvaldan joy band qilib qo'yishingiz mumkin.</p>
+        </div>
+        <div class="row">
+          <form action="" method="POST">
+            {% csrf_token %}
+              <div class="col-lg-4 col-md-6 form-group">
+                {{buyurtma.as_p}}
+                <input class="btn btn-sm btn-primary" type="submit" name="" value="Tasdiqlash">
+              </div>
+          </form>
+      </div>
+    </div>
+    </section><!-- End Book A Table Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Bizning Cafedan <span>Bazi lavhalar</span></h2>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="{% static 'img/gallery/gallery-1.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'img/gallery/gallery-1.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="{% static 'img/gallery/gallery-2.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'img/gallery/gallery-2.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="{% static 'img/gallery/gallery-3.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'img/gallery/gallery-3.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="{% static 'img/gallery/gallery-4.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'img/gallery/gallery-4.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="{% static 'img/gallery/gallery-5.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'img/gallery/gallery-5.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="{% static 'img/gallery/gallery-6.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'img/gallery/gallery-6.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="{% static 'img/gallery/gallery-7.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'img/gallery/gallery-7.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="{% static 'img/gallery/gallery-8.jpg' %}" class="gallery-lightbox">
+                <img src="{% static 'img/gallery/gallery-8.jpg' %}" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="chefs" class="chefs">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Bizning malakali <span>Oshpazlar</span></h2>
+          <p>Biz malakali va mohir oshpazlar bilan hamkorlikda ish olib bormoqdamiz.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="{% static 'img/chefs/shef1.jpg' %}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Otabek Mamatov</h4>
+                <span>Bosh oshpaz</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="{% static 'img/chefs/shef1.jpg' %}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Hudoyberdi Urunov</h4>
+                <span>Fast Food tayyorlovchi</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="{% static 'img/chefs/shef2.png' %}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Erkinova Madina</h4>
+                <span>Salad tayyorlovchi</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container position-relative">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="{% static 'img/testimonials/comment.jpg' %}" class="testimonial-img" alt="">
+                <h3>Aliyev Vali</h3>
+                <h4>doimiy mijoz</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Men 2 yildan buyon doim Uchrashuv cafeda taomlanib kelaman. Menga ozodalik va sifat tomonlaridan juda ma'qul kelgan.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2><span>Biz bilan</span> Aloqa</h2>
+          <p>Sizda biron-bir savol yoki biz bilan bog'liq taklif yoki arizlar bo'lsa quyidagi forma orqali yuborishingiz mumkin.</p>
+        </div>
+      </div>
+
+      <div class="map">
+
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.1614378688096!2d68.7746715568897!3d40.493813035406966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b207bd3e16a619%3A0xa04da78b569b5e02!2sUchrashuv!5e0!3m2!1sru!2s!4v1650084363614!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="container mt-5">
+
+        <div class="info-wrap">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 info">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Manzil:</h4>
+              <p>Alisher Navoiy ko'chasi 42<br>Guliston shahri</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-clock"></i>
+              <h4>Vaqt:</h4>
+              <p>Dushanba-Yakshanba:<br>9:00  - 22:00 </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>info@example.com<br>contact@example.com</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-phone"></i>
+              <h4>Tel:</h4>
+              <p>(99) 901-02-98<br>(99) 901-02-98</p>
+            </div>
+          </div>
+        </div>
+
+        <form action="" method="POST">
+
+          <div class="row">
+            <div class="col-md-6 form-group">
+              {% csrf_token %}
+              {{form.as_p}}
+              <input type="submit" class="btn btn-sm btn-info" name="" value="Send Message">
+            </div>
+          </div>
+
+        </form>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Uchrashuv</h3>
+      <p>Bizni ijtimoiy tarmoqlarda ham kuzatib boring.</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-telegram"></i></a>
+      </div>
+
+      <div class="credits">
+
+        Designed by <a href="https://t.me/begbotov_shokir/">Shokir</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
